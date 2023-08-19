@@ -98,7 +98,7 @@ input {
     background: inherit;
     margin-top: 8px;
     border-radius: 3px;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 input:focus {
