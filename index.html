@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="image">
+            <video autoplay muted loop id="live-wallpaper">
+                <source src="background1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="content">
+            <div class="intro">
+                <p>This is not a real service! A mockup site for Anime Fandom.</p>
+                <p>Sign-up for a free subscription to all news and updates related to Anime. You know you want to!</p>
+            </div>
+            <form action="" method="post" class="sign-up-form">
+                <header>Lets get started</header>
+                <div class="input-field">
+                    <div class="form-row">
+                        <label for="first-name">*First Name</label>
+                        <input id="first-name" name="first-name" type="text" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="last-name">Last Name</label>
+                        <input id="last-name" name="last-name" type="text">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">*Email</label>
+                        <input id="email" name="email" type="email" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="phone-number">Phone Number</label>
+                        <input id="phone-number" name="phone-number" type="number" pattern="[1-9]{1}[0-9]{9}">
+                    </div>
+                    <div class="form-row">
+                        <label for="password">*Password</label>
+                        <input id="password" name="password" type="password" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="confirm-password">*Confirm Password</label>
+                        <input id="confirm-password" name="confirm-password" type="password" required>   
+                    </div>
+                </div>
+                <div class="submit-field">
+                    <button>Create Account</button>
+                </div>
+                <p class="end">Already have an Account? <a href="">Log in!</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
