@@ -20,11 +20,12 @@ body{
 
 .content {
     background-color: rgb(255, 255, 255, 0.1);
-    height: 95.5vh;
+    height: 100vh;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: rgb(1, 1, 1);
     font-weight: bolder;
 }
@@ -50,7 +51,7 @@ video#live-wallpaper {
 .sign-up-form {
     display: flex;
     flex-direction: column;
-    max-width: 550px;
+    max-width: 500px;
     gap: 20px;
 }
 
@@ -62,7 +63,7 @@ video#live-wallpaper {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    font-size: .8rem;
+    font-size: .7rem;
     flex-flow: row wrap;
 }
 
@@ -115,15 +116,15 @@ label {
     z-index: 1;
     width: 20rem;
     position: absolute;
-    top: 2rem;
-    left: 2rem;
+    top: 1.5rem;
+    left: 1.5rem;
 }
 
 .footer {
     position: absolute;
-    bottom: 2rem;
-    left: 2rem;
-    font-size: 1.3rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    font-size: 1.15rem;
     color: rgb(255, 255, 255, 0.5);
 }
 
